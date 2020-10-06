@@ -1,0 +1,14 @@
+.containerform{
+    
+    display: inline-flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-content: stretch;
+    }
+    .consulta{
+        border: solid red;
+       display: flex;
+       flex-direction: column;
+       border-radius: 30px;
+    }
