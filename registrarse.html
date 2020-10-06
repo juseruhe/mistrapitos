@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <title>Tienda MT</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="iconos/logomt.PNG"width="100%" height="100%"/>
+    <link href="estiloscss/estiloregistro.css"rel="StyleSheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    </head>
+<body class="hidden">
+
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="iconos/logomt.PNG" alt="facebook">
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="index.html" ide="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="index.html" ide="enlace-trabajo" class="btn-header">Trabajo</a>
+                    <a href="index.html" ide="enlace-servicio" class="btn-header">Servicio</a>
+                    <a href="index.html" ide="enlace-inicio-sesion" class="btn-header">Inicio Sesión</a>
+                    <a href="index.html" ide="enlace-contacto" class="btn-header">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>Mis Trapitos</h1>
+            <h2>Tienda de Ropa Online</h2>
+        </div>
+    </header>
+
+    <h2>Datos de Contacto</h2>
+
+<section class="registro" id="regi">
+    
+    <form action="https://hidden-lake-05478.herokuapp.com/api.php?apicall=createusuario" method="POST">
+    <br>
+    
+        <div class="form"> Tipo de Documento: </div>
+            <div class="resp">
+            <select name="ID_Tipo_Documento"> 
+            <option> Registro Cívil </option>
+            <option> Pasaporte Extranjero </option>
+            <option> Tarjeta de Identidad </option>
+            <option> Cédula de Ciudadanía </option>
+            <option> Cédula de Extranjería </option>
+            </select> 
+            </div>
+
+        <div class="form"> Numero de Documento: </div>
+            <div class="resp">        
+            <input type="text" name="ID_Usuario">
+            </div>
+
+        <div class="form"> Ingrese su primer nombres: </div>
+            <div class="resp"> 
+            <input type="text" name="Primer_Nombre">
+            </div>
+
+        <div class="form"> Ingrese su segundo nombre: </div> 
+            <div class="resp">
+            <input type="text" name="Segundo_Nombre">
+            </div>
+
+        <div class="form"> Ingrese su primer apellido: </div>
+            <div class="resp">
+            <input type="text" name="Primer_Apellido">
+            </div>
+
+        <div class="form"> Ingrese su segundo apellido: </div>
+            <div class="resp">
+            <input type="text" name="Segundo_Apellido">
+            </div>
+
+        <div class="form"> Fecha de Nacimiento: </div>
+            <div class="resp">
+            <input type="date" name="fecha_nacimiento">
+            </div>
+
+        <div class="form"> Telefono: </div>
+            <div class="resp">
+            <input type="text" name="Telefono">
+            </div>
+
+        <div class="form"> Ingrese E-mail: </div> 
+            <div class="resp">
+            <input type="email" name="Correo">
+            </div>
+            
+        <div class="form"> Ingrese su Nueva contraseña:</div> 
+            <div class="resp">
+            <input type="password" name="Contrasena">
+            </div>
+
+        <div class="form"> Confirmar Contraseña: </div>
+            <div class="resp">
+            <input type="password" name="confirmar_Contrasena">
+            </div>
+
+        <div class="form"> Genero: </div>
+            <div class="resp">
+            <select name="ID_Genero"> 
+            <option> Masculino </option>
+            <option> Femenino </option>
+            </select></p>
+            </div>
+
+        <div class="form"> Ciudad: </div>
+            <div class="resp">
+            <select type="text" name="ID_Ciudad">
+            <option> Bogotá </option>
+            <option> Cali </option>
+            <option> Medellín </option>
+            </select> </p>
+            </div>
+
+        <h4>Datos del Domicilio</h4>
+
+        <div class="form"> Ingrese direccion: </div>
+            <div class="resp">
+            <input type="text" name="direccion"></p>
+            </div>
+
+        <div class="form"> Piso,Apto, casa, etc:</div>
+            <div class="resp">
+            <input type="text" name="observaciones"></p>
+            </div>
+
+        <div class="form"> Rol: </div>
+            <div class="resp">
+            <select type="text" name="ID_Rol">
+            <option> Usuario </option>
+            <option> Administrador </option>
+            </select> 
+            </div>
+
+        <input type="submit" value="Enviar" id="boton1" class="guardar"><br>
+        <a href="index.html">Regresar a la Página Principal</a>
+    </form>
+    
+</section>
+
+    <footer>
+      <! --Seccion de contacto (footer)-->
+      <footer id="contacto">
+          <div class="footer contenedor">
+              <div class="marca-logo">
+                  <img src="iconos/logomt.PNG" alt="">
+              </div>
+              <div class="iconos">
+                  <img src="iconos/instagram.png" alt="facebook" width="3%" height="3%">
+                  <img src="iconos/whatsapp.png" alt="facebook" width="3%" height="3%">
+                  <img src="iconos/facebook (1).png" alt="facebook" width="3%" height="3%"> 
+                  <img src="iconos/youtube.png" alt="facebook" width="3%" height="3%">
+                  <img src="iconos/github.png" alt="facebook" width="3%" height="3%">
+      
+              </div>
+              <p>La pacion e innovacion es lo que nos distingue del resto</p>
+          </div>
+      </footer>
+      <script src="js/jquery.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/filtro.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+      </html>
