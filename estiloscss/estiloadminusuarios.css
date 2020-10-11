@@ -31,7 +31,7 @@
   }
   
   .wrapper .sidebar{
-    width: 250px;
+    width: 220px;
     height: 100%;
     background: var(--color5);
     padding: 30px 0px;
@@ -82,6 +82,7 @@
     color: #afb6ae;
     border-bottom: 1px solid #e0e4e8;
   }
+
   th{
     position: relative;
     left: 20%;
