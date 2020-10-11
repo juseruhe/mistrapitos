@@ -82,7 +82,21 @@
     color: #afb6ae;
     border-bottom: 1px solid #e0e4e8;
   }
+  th{
+    position: relative;
+    left: 20%;
+    border: solid var(--color4) 1px;
+    font-size: small;
+  }
+  
+  td{
+    position: relative;
+    left: 20%;
+    border: rgb(184, 182, 179);
+    font-size: 16px;
+  }
 
+  /*
   th{
     position: relative;
     left: 20%;
@@ -94,7 +108,7 @@
     left: 20%;
     border: solid rgb(209, 206, 206) 1px;
     padding: 5px;
- }
+ }*/
   
   /* header*/
 
