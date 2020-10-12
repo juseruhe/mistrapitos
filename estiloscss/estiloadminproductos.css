@@ -129,10 +129,10 @@
   }
 
   main{
-    width: 80%;
+    width: 100%;
     height: auto;
     position: relative;
-    left: 200px;
+    left: 180px;
     padding: 10px;
     display: flexbox;  
 }
