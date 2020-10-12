@@ -134,8 +134,7 @@
     position: relative;
     left: 200px;
     padding: 10px;
-    display: flexbox;
-    
+    display: flexbox;  
 }
 th{
   border: solid var(--color4) 1px;
