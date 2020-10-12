@@ -173,6 +173,8 @@ td{
     rgba(250, 161, 67, 0.575));
 }
 #crear{
+  position: relative;
+  left: 10%;
     border: solid 1px  rgb(70, 5, 5);
     width:50%;
     height: 250px;
