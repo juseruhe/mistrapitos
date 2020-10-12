@@ -132,7 +132,7 @@
     width: 80%;
     height: auto;
     position: relative;
-    left: 20%;
+    left: 200px;
     padding: 10px;
     display: flexbox;
     
@@ -150,6 +150,7 @@ td{
   border: solid rgb(209, 206, 206) 1px;
   font-size: 14px;
 }
+
 /*
 th{
   border: solid var(--color4) 1px;
