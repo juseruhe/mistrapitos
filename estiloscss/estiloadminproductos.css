@@ -31,7 +31,7 @@
   }
   
   .wrapper .sidebar{
-    width: 250px;
+    width: 200px;
     height: 100%;
     background: var(--color5);
     padding: 30px 0px;
@@ -137,7 +137,20 @@
     display: flexbox;
     
 }
+th{
+  position: relative;
+  left: 200px;
+  border: solid var(--color4) 1px;
+  font-size: small;
+}
 
+td{
+  position: relative;
+  left: 200px;
+  border: solid rgb(209, 206, 206) 1px;
+  font-size: 14px;
+}
+/*
 th{
   border: solid var(--color4) 1px;
   padding: 5px;
@@ -147,7 +160,7 @@ td{
   border: solid rgb(209, 206, 206) 1px;
   padding: 5px;
 }
-
+*/
 /*formulario crear producto*/
 #crear{
     color: rgb(70, 5, 5);

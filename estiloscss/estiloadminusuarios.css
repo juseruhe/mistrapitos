@@ -31,7 +31,7 @@
   }
   
   .wrapper .sidebar{
-    width: 210px;
+    width: 200px;
     height: 100%;
     background: var(--color5);
     padding: 30px 0px;
@@ -85,15 +85,15 @@
 
   th{
     position: relative;
-    left: 210px;
+    left: 200px;
     border: solid var(--color4) 1px;
     font-size: small;
   }
   
   td{
     position: relative;
-    left: 210px;
-    border: rgb(184, 182, 179);
+    left: 200px;
+    border: solid rgb(209, 206, 206) 1px;
     font-size: 14px;
   }
 
