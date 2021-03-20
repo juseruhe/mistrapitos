@@ -65,7 +65,7 @@ header{
   rgba(206, 201, 203, 0.6),
   rgba(29,100,171, .6),
   rgb(250, 162, 67)
-  ), url(../../img/fondo.jpg);
+  ), url(../IMG/fondo.jpg);
   background-attachment:fixed;
   background-position: center;
   background-size: cover;
