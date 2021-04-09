@@ -86,25 +86,12 @@
                       <div class="col">
                         <label for="usua" class="label">Tipo de documento: </label>
                         <select id="document_type" name="ID_Tipo_Documento" type="text" class="input">
-                          <option value="">{seleccionar}</option>
-                          <?php 
-                          
-                          require_once = "https://hidden-lake-05478.herokuapp.com/crudservicios/modelojson.php";
-
-                          $tipos_documentos = new Datos();
-
-                          $tipos_documentos->mostrar_tipo_documentos();
-
-                          foreach($tipos_documentos as  $tipo_documento){
-                          
-                          ?>
-
-                      <option value="<?php echo $tipo_documento ?>"><?php echo $tipo_documento ?></option>
-
-                      <?php
-                          }
-                      ?>
-                         
+                          <option value="">{selecionar}</option>
+                          <option class="form-control">Cedula de Ciudadania</option>
+                          <option class="form-control">Cedula de Extranjeria</option>
+                          <option class="form-control">Tarjeta de Identidad</option>
+                          <option class="form-control">Registro Cívil</option>
+                          <option class="form-control">Permiso Especial</option>
                       </select>
                       </div>
                       <div class="col">
